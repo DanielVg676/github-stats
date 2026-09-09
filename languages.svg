@@ -9,7 +9,7 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
+  fill: transparent;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
@@ -17,7 +17,7 @@ svg {
 }
 
 #gh-dark-mode-only:target #background {
-  fill: #0d1117;
+  fill: transparent;
   stroke-width: 0.5px;
 }
 
@@ -133,55 +133,55 @@ div.ellipsis {
 <div>
 <span class="progress">
 <span style="
-  background-color: #3178c6; 
+  background-color: #8a8a8a; 
   width: 81.533%;
 " class="progress-item"></span><span style="
-  background-color: #3572A5; 
+  background-color: #b0b0b0; 
   width: 5.996%;
 " class="progress-item"></span><span style="
-  background-color: #336790; 
+  background-color: #6e6e6e; 
   width: 2.711%;
 " class="progress-item"></span><span style="
-  background-color: #3d8137; 
+  background-color: #9c9c9c; 
   width: 2.453%;
 " class="progress-item"></span><span style="
-  background-color: #f1e05a; 
+  background-color: #c2c2c2; 
   width: 2.368%;
 " class="progress-item"></span><span style="
-  background-color: #663399; 
+  background-color: #7c7c7c; 
   width: 1.567%;
 " class="progress-item"></span><span style="
-  background-color: #e34c26; 
+  background-color: #8a8a8a; 
   width: 1.074%;
 " class="progress-item"></span><span style="
-  background-color: #4F5D95; 
+  background-color: #b0b0b0; 
   width: 0.962%;
 " class="progress-item"></span><span style="
-  background-color: #c6538c; 
+  background-color: #6e6e6e; 
   width: 0.556%;
 " class="progress-item"></span><span style="
-  background-color: #b07219; 
+  background-color: #9c9c9c; 
   width: 0.325%;
 " class="progress-item"></span><span style="
-  background-color: #ec915c; 
+  background-color: #c2c2c2; 
   width: 0.228%;
 " class="progress-item"></span><span style="
-  background-color: #012456; 
+  background-color: #7c7c7c; 
   width: 0.125%;
 " class="progress-item"></span><span style="
-  background-color: #384d54; 
+  background-color: #8a8a8a; 
   width: 0.038%;
 " class="progress-item"></span><span style="
-  background-color: #f7931e; 
+  background-color: #b0b0b0; 
   width: 0.037%;
 " class="progress-item"></span><span style="
-  background-color: #f34b7d; 
+  background-color: #6e6e6e; 
   width: 0.018%;
 " class="progress-item"></span><span style="
-  background-color: #89e051; 
+  background-color: #9c9c9c; 
   width: 0.007%;
 " class="progress-item"></span><span style="
-  background-color: #878787; 
+  background-color: #c2c2c2; 
   width: 0.004%;
 " class="progress-item"></span>
 </span>
@@ -193,7 +193,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #3178c6;" 
+      style="fill: #8a8a8a;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -209,7 +209,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #3572A5;" 
+      style="fill: #b0b0b0;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -225,7 +225,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #336790;" 
+      style="fill: #6e6e6e;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -241,7 +241,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #3d8137;" 
+      style="fill: #9c9c9c;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -257,7 +257,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #f1e05a;" 
+      style="fill: #c2c2c2;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -273,7 +273,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #663399;" 
+      style="fill: #7c7c7c;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -289,7 +289,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #e34c26;" 
+      style="fill: #8a8a8a;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -305,7 +305,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #4F5D95;" 
+      style="fill: #b0b0b0;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -321,7 +321,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #c6538c;" 
+      style="fill: #6e6e6e;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -337,7 +337,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #b07219;" 
+      style="fill: #9c9c9c;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -353,7 +353,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #ec915c;" 
+      style="fill: #c2c2c2;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -369,7 +369,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #012456;" 
+      style="fill: #7c7c7c;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -385,7 +385,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #384d54;" 
+      style="fill: #8a8a8a;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -401,7 +401,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #f7931e;" 
+      style="fill: #b0b0b0;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -417,7 +417,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #f34b7d;" 
+      style="fill: #6e6e6e;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -433,7 +433,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #89e051;" 
+      style="fill: #9c9c9c;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
@@ -449,7 +449,7 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #878787;" 
+      style="fill: #c2c2c2;" 
       viewBox="0 0 16 16" 
       version="1.1" 
       width="16" 
