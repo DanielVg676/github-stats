@@ -122,7 +122,10 @@ fn languages(
         lang_list,
         0..,
     ) |language, count, *progress_s, *lang_s, i| {
-        const color = stats.language_colors.get(language);
+        // Monochrome ramp: keep the profile black & white while still letting
+        // each language read as a distinct shade of gray.
+        const grays = [_][]const u8{ "#8a8a8a", "#b0b0b0", "#6e6e6e", "#9c9c9c", "#c2c2c2", "#7c7c7c" };
+        const color: ?[]const u8 = grays[i % grays.len];
         const percent =
             100 * if (stats.languages_total == 0)
                 0.0
